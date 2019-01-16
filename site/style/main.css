@@ -1,0 +1,107 @@
+/*   Google Fonts 
+
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Permanent Marker', cursive; 
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Questrial', sans-serif;*/
+
+/* -------- GENERAL -------- */
+
+body{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+  }
+  
+  /* -------- HEADER -------- */
+  
+  .tgif{
+    font-family: 'Arvo', serif;
+    text-align: left;
+  
+  }
+  .logo {
+    height: 200px;
+    width: 200px;
+    align-content: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .hidden {       
+      display: none !important;
+    }
+  }
+  
+  /* -------- NAV BAR ------------- */
+  .barra-nav {
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+  }
+  
+  .mailUs{
+    font-family: 'Arvo', serif;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    text-align: right;
+    padding-top: 50px;
+  }
+  
+  /* -------- CONTENT ------------- */
+  .main-text{
+    text-align: justify;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+  }
+  
+  .side-img {
+    height: 400px;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  
+  @media screen and (max-width: 793px) {
+    .side-img {       
+      display: none !important;
+      height: 300px;
+      width: 350px;
+      margin-top: 5%;
+    }
+  }
+  
+  
+  /* -------- TABLE PROPERTIES --------- */
+  
+  .state-filter{
+    text-align: right;
+    padding: 2%;
+  }
+
+  .table-opts{
+      color: black;
+      background-color: #F8F9FA;
+      padding: 15px;    
+  }
+
+  .label{
+      padding: 3%;
+  }
+
+  /* -------- FOOTER --------- */
+  .footer{
+    background-color: #F8F9FA;
+    padding: 20px;
+  }
+  
+  .footer-txt{
+    margin-bottom: 0;
+    text-align: center !important;
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+  }
+  
